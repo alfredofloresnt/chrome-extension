@@ -1,0 +1,19 @@
+{
+  "name":"",
+  "version":"1.0",
+  "manifest_version":2,
+  "icons":{
+    "128":"/img/icon.png"
+  },
+  "browser_action":{
+    "default_tittle":"",
+    "default_popup":"content.html"
+  },
+  "permissions": [
+      "tabs",
+      "http://*/*",
+      "https://*/*",
+      "activeTab"
+  ]
+
+}
