@@ -1,0 +1,22 @@
+a{
+  color: white;
+}
+body{
+  min-width: 300px;
+  min-height: 450px;
+  background-color: #212121;
+}
+
+.nav{
+  align-items: center;
+  display: block;
+   margin: auto;
+  justify-content: center;
+}
+
+
+.navbar .nav > li{
+  padding: 7px;
+  float: left;
+  display: block;
+}
