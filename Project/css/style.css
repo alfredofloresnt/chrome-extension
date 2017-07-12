@@ -5,17 +5,28 @@ body{
   min-width: 300px;
   min-height: 450px;
   background-color: #212121;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar{
+  text-align: center;
+  background-color: #DD2C00;
 }
 
 .nav{
-  align-items: center;
-  display: block;
-   margin: auto;
-  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  position: relative;
+  margin-right: auto;
+  display: inline-block;
 }
 
 
-.navbar .nav > li{
+.navbar .nav li{
   padding: 7px;
   float: left;
   display: block;
