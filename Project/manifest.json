@@ -23,7 +23,7 @@
       "background.js"
     ]
   },
-  "content_security_policy": "script-src 'self' https://*.twitter.com https://*.twimg.com; object-src 'self'"
+  "content_security_policy": "script-src 'self' https://youtube.com/* https://*.twitter.com https://*.twimg.com; object-src 'self'"
 
 
 
