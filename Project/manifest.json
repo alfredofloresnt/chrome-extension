@@ -5,11 +5,13 @@
   "icons":{
     "128":"/img/icon.png"
   },
+  "options_page": "test.html",
   "browser_action":{
     "default_tittle":"",
     "default_popup":"content.html"
   },
   "permissions": [
+    "storage",
       "tabs",
       "http://*/*",
       "https://*/*",

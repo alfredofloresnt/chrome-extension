@@ -1,2 +1,2 @@
 
-console.log("Script loaded!");
+console.log("background loaded!");
